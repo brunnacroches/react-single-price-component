@@ -1,4 +1,17 @@
 .button {
   width: 100%;
   height: 100%;
+  background-color: hsl(245, 50%, 52%);
+}
+
+.button--outined {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(108, 72%, 47%);
+}
+
+.button--outined:hover {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(293, 50%, 52%);
 }
