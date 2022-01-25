@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* colocar COR do Texto 
+ */
+
+/* primary and secondy */
+
+.primary {
+  color: hsl(179, 62%, 43%);
+}
+
+.secondary {
+  color: hsl(71, 73%, 54%);
+}
+
+.white {
+  color: hsl(71, 73%, 54%);
+}

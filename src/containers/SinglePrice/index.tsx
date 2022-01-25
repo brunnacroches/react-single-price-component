@@ -12,7 +12,7 @@ const SinglePrice: React.FC<SinglePriceProps> = ({ button, type }) => {
   return (
     <div className="PriceSingle">
       <div className="PriceSingle__Card">
-        <Type type={type} />
+        <Type color="primary">Join our community</Type>
       </div>
       <div className="PriceSingle__Card__Button">
         <Button text={button} />

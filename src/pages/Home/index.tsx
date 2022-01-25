@@ -5,6 +5,10 @@ import SinglePrice from "../../containers/SinglePrice";
 
 import "./style.css";
 
+// function TypographySingle({ type }: TypeProps) {
+//   return <span>{type}</span>;
+// }
+
 const Home = () => {
   return (
     <div className="home">
