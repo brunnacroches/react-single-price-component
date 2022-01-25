@@ -6,7 +6,11 @@ import SinglePrice from "../../containers/SinglePrice";
 import "./style.css";
 
 const Home = () => {
-  return <div className="home"></div>;
+  return (
+    <div className="home">
+      <SinglePrice button="Sing up" type="Join our community" />
+    </div>
+  );
 };
 
 export default Home;

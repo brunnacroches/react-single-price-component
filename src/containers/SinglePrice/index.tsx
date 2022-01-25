@@ -1,14 +1,24 @@
 import React from "react";
 import Type from "../../components/Type";
 import Button from "../../components/Button";
+import "./style.css";
 
 export interface SinglePriceProps {
-  button: string;
   type: string;
+  button: string;
 }
 
-const SiglePrice: React.FC<SinglePriceProps> = ({ button, type }) => {
-  return <div className="PriceGrid"></div>;
+const SinglePrice: React.FC<SinglePriceProps> = ({ button, type }) => {
+  return (
+    <div className="PriceSingle">
+      <div className="PriceSingle__Card">
+        <Type type={type} />
+      </div>
+      <div className="PriceSingle__Card__Button">
+        <Button text={button} />
+      </div>
+    </div>
+  );
 };
 
-export default SiglePrice;
+export default SinglePrice;

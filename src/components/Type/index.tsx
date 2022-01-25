@@ -2,11 +2,11 @@ import React from "react";
 import "./style.css";
 
 interface TypeProps {
-  text: string;
+  type: string;
 }
 
-const Type: React.FC<TypeProps> = ({ text }) => {
-  return <h1 className="type"> {text} </h1>;
+const Type: React.FC<TypeProps> = ({ type }) => {
+  return <h1 className="type"> {type} </h1>;
 };
 
 export default Type;
