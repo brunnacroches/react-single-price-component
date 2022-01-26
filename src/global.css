@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --gray-blue: hsl(218, 22%, 67%);
+}
 /* colocar COR do Texto 
  */
 
@@ -23,5 +29,5 @@
   color: hsl(218, 22%, 67%);
 }
 .fifth {
-  color: hsl(0, 0%, 4%);
+  color: hsl(0, 0%, 100%);
 }

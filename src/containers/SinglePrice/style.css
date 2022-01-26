@@ -43,8 +43,7 @@ Os nomes das áreas de grade devem ser referenciados pela grid-areapropriedade d
 }
 
 .CardPrice__first__text {
-  margin-bottom: 4px;
-  line-height: 24px;
+  margin-bottom: 15px;
 }
 
 .CardPrice__second {
@@ -57,13 +56,13 @@ Os nomes das áreas de grade devem ser referenciados pela grid-areapropriedade d
 .CardPrice__second__monthly {
   line-height: 18px;
   margin-top: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 23px;
 }
 
 .CardPrice__second__month {
   margin-bottom: 20px;
   margin-left: 55px;
-  margin-top: -22px;
+  margin-top: -40px;
   opacity: 0.3;
   align-items: center;
 }

@@ -33,23 +33,23 @@ const SinglePrice: React.FC<SinglePriceProps> = ({ button, type }) => {
       </div>
       <div className="CardPrice__second">
         <div className="CardPrice__second__monthly">
-          <Type variant="h3__textCard" color="third">
+          <Type variant="h2__subtitle" color="fifth">
             Monthly Subscription
           </Type>
         </div>
         <div className="CardPrice__second__price">
-          <Type variant="h5__subletitle__number" color="third">
+          <Type variant="h5__subletitle__number" color="fifth">
             {" "}
             $29{" "}
           </Type>
         </div>
         <div className="CardPrice__second__month">
-          <Type variant="h4__subtitle" color="third">
+          <Type variant="h1__title" color="third">
             per month
           </Type>
         </div>
         <div className="CardPrice__second__full">
-          <Type variant="h4__subtitle" color="third">
+          <Type variant="h3__textCard" color="third">
             Full access for less than $1 a day
           </Type>
         </div>
@@ -59,7 +59,7 @@ const SinglePrice: React.FC<SinglePriceProps> = ({ button, type }) => {
       </div>
       <div className="CardPrice__third">
         <div className="CardPrice__third__why">
-          <Type variant="h3__textCard" color="third">
+          <Type variant="h2__subtitle" color="fifth">
             Why Us
           </Type>
         </div>
