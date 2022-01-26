@@ -1,163 +1,125 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --gray-blue: hsl(218, 22%, 67%);
+}
+
+/* DISPLAY GRID */
+/* // Torna o elemento um grid container. */
+
+/* GRID-TEMPLATES-AREAS */
+/* No CSS, a grid-template-areaspropriedade define uma grade com diferentes áreas de grade . Em seu valor, uma string representa uma linha de grade e cada nome válido dentro de uma string representa uma coluna . Para criar uma célula de grade vazia, você precisa usar o caractere ponto ( .) em uma string de linha.
+
+Os nomes das áreas de grade devem ser referenciados pela grid-areapropriedade dos itens de grade individuais. */
+
 .CardPrice {
-  width: 1440px;
-  max-width: 1440px;
-  min-width: 375px;
+  width: 615px;
+  /* // Torna o elemento um grid container. */
+  display: grid;
   height: auto;
-  display: flex;
-  background-color: rgb(56, 45, 33);
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  border-radius: 10px;
-  gap: 1rem;
-  margin: auto;
-  position: relative;
-  top: -10%;
-  left: 0%;
+  /* SOMBRA NO CARD TOTAL */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* propriedade permite que você desenhe uma representação visual da grade diretamente em seu CSS */
+  grid-template-areas: "top top" "left right";
 }
 
 .CardPrice__first {
-  height: 230px;
-  width: 1440px;
-  max-width: 1440px;
-  min-width: 375px;
-  background-color: aliceblue;
-  flex-direction: column;
-  border-radius: 5px 5px 0 0;
-  padding-left: 30px;
-  position: relative;
-  display: flex;
-  padding: 40px 0px 0px 40px;
+  max-width: 615px;
+  /* especifica o tamanho e a localização de um item de grade em um layout de grade */
+  grid-area: top;
+  padding: 20px 30px 20px 40px;
+  border-radius: 10px 10px 0 0;
+  background-color: white;
 }
 
 .CardPrice__first__title {
-  display: flex;
-  height: auto;
-  width: 100%;
-  line-height: 40px;
-  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  margin-top: 12px;
 }
 
 .CardPrice__first__sub {
-  display: flex;
-  height: auto;
-  width: 100%;
-  line-height: 40px;
-  letter-spacing: 0.5px;
+  margin-bottom: 12px;
 }
+
 .CardPrice__first__text {
-  display: flex;
-  height: auto;
-  width: 100%;
-  line-height: 25px;
-  opacity: 0.5;
-  font-family: "Karla", sans-serif;
-  display: block;
-  padding: 10px 0px 0px 0px;
-  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+  line-height: 24px;
 }
 
 .CardPrice__second {
-  height: 260px;
-  top: -20px;
-  width: 720px;
-  max-width: 720px;
-  min-width: 375px;
-  background-color: hsl(179, 63%, 37%);
-  flex-direction: column;
-  border-radius: 0px 0px 0px 5px;
-  /* padding-left: 30px; */
-  position: relative;
-  display: flex;
-  padding: 40px 0px 0px 40px;
-  /* margin: auto; */
-  position: relative;
-  left: -25%;
+  grid-area: left;
+  padding: 20px 35px 20px 40px;
+  background-color: var(--cyan);
+  border-bottom-left-radius: 10px;
 }
 
 .CardPrice__second__monthly {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  line-height: 40px;
-  letter-spacing: 0.5px;
-  font-weight: bold;
-  top: -10px;
-  left: 0%;
-  padding-bottom: 0px;
-  /* align-items: center; */
+  line-height: 18px;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 .CardPrice__second__month {
-  top: -26px;
-  left: 9%;
-  width: 720px;
-  max-width: 720px;
-  min-width: 375px;
-  height: auto;
-  flex-direction: column;
-  position: relative;
-  display: flex;
+  margin-bottom: 20px;
+  margin-left: 55px;
+  margin-top: -22px;
   opacity: 0.3;
-  font-family: "Karla", sans-serif;
-  display: block;
-  letter-spacing: 0.2px;
+  align-items: center;
 }
 
 .CardPrice__second__full {
-  height: auto;
-  flex-direction: column;
-  position: relative;
-  display: flex;
-  opacity: 0.7;
-  font-family: "Karla", sans-serif;
-  display: block;
-  letter-spacing: 0.3px;
-  top: -2px;
-  left: 0%;
-  padding-bottom: 23px;
+  margin-bottom: 17px;
 }
 
 .CardPrice__third {
-  height: 260px;
-  top: -300px;
-  width: 720px;
-  max-width: 720px;
-  min-width: 375px;
-  background-color: hsl(179, 62%, 43%);
-  flex-direction: column;
-  border-radius: 0px 0px 5px 0px;
-  /* padding-left: 30px; */
-  position: relative;
-  display: flex;
-  padding: 40px 0px 0px 40px;
-  /* margin: auto; */
-  position: relative;
-  left: 25%;
+  padding: 20px 77px 20px 20px;
+  background-color: #4abebd;
+  grid-area: right;
+  border-bottom-right-radius: 10px;
 }
 
 .CardPrice__third__why {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  line-height: 40px;
-  letter-spacing: 0.5px;
-  font-weight: bold;
-  top: -10px;
-  left: 0%;
-  padding-bottom: 0px;
+  margin: 24px 24px;
   /* align-items: center; */
 }
-.CardPrice__third__tuto {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-  font-weight: bold;
-  top: -5px;
-  left: 0%;
-  padding-bottom: 0px;
-  opacity: 0.7;
-  /* align-items: center; */
+.CardPrice__third__text {
+  line-height: 18px;
+  list-style: none;
+  margin: 0 0 0 24px;
+}
+
+@media (max-width: 550px) {
+  .CardPrice {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+  }
+
+  .CardPrice__first {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 0;
+  }
+
+  .CardPrice__second {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 0;
+  }
+
+  .CardPrice__third {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 0;
+  }
 }
