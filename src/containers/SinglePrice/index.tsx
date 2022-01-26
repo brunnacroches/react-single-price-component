@@ -63,7 +63,7 @@ const SinglePrice: React.FC<SinglePriceProps> = ({ button, type }) => {
             Why Us
           </Type>
         </div>
-        <div className="CardPrice__third__tuto">
+        <div className="CardPrice__third__text">
           <Type variant="h4__subtitle" color="third">
             Tutorials by industry experts <br /> Peer & expert code review{" "}
             <br />
