@@ -12,7 +12,7 @@ import "./style.css";
 const Home = () => {
   return (
     <div className="home">
-      <SinglePrice button="Sing up" type="Join our community" />
+      <SinglePrice button="Sing up" type="" />
     </div>
   );
 };

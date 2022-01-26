@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Karla", sans-serif;
 }
 
 /* colocar COR do Texto 
  */
-
-/* primary and secondy */
 
 .primary {
   color: hsl(179, 62%, 43%);
@@ -17,6 +16,33 @@
   color: hsl(71, 73%, 54%);
 }
 
-.white {
-  color: hsl(71, 73%, 54%);
+.third {
+  color: hsl(204, 43%, 93%);
 }
+
+.fourth {
+  color: hsl(218, 22%, 67%);
+}
+.fifth {
+  color: hsl(0, 0%, 4%);
+}
+
+/* .h1__title {
+  font-size: ;
+}
+.h2__subtitle {
+  font-size: ;
+}
+.h3__textCard {
+  font-size: ;
+}
+.h4__subtitle {
+  font-size: ;
+}
+.h5__subletitle__number {
+  font-size: ;
+} 
+.h6__subletitle__text2 {
+  font-size: 10px;
+}
+*/

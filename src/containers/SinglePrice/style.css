@@ -1,6 +1,163 @@
-.PriceSingle {
+.CardPrice {
   width: 1440px;
+  max-width: 1440px;
+  min-width: 375px;
   height: auto;
   display: flex;
-  color: hsl(203, 68%, 26%);
+  background-color: rgb(56, 45, 33);
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  border-radius: 10px;
+  gap: 1rem;
+  margin: auto;
+  position: relative;
+  top: -10%;
+  left: 0%;
+}
+
+.CardPrice__first {
+  height: 230px;
+  width: 1440px;
+  max-width: 1440px;
+  min-width: 375px;
+  background-color: aliceblue;
+  flex-direction: column;
+  border-radius: 5px 5px 0 0;
+  padding-left: 30px;
+  position: relative;
+  display: flex;
+  padding: 40px 0px 0px 40px;
+}
+
+.CardPrice__first__title {
+  display: flex;
+  height: auto;
+  width: 100%;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.CardPrice__first__sub {
+  display: flex;
+  height: auto;
+  width: 100%;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+.CardPrice__first__text {
+  display: flex;
+  height: auto;
+  width: 100%;
+  line-height: 25px;
+  opacity: 0.5;
+  font-family: "Karla", sans-serif;
+  display: block;
+  padding: 10px 0px 0px 0px;
+  letter-spacing: 0.2px;
+}
+
+.CardPrice__second {
+  height: 260px;
+  top: -20px;
+  width: 720px;
+  max-width: 720px;
+  min-width: 375px;
+  background-color: hsl(179, 63%, 37%);
+  flex-direction: column;
+  border-radius: 0px 0px 0px 5px;
+  /* padding-left: 30px; */
+  position: relative;
+  display: flex;
+  padding: 40px 0px 0px 40px;
+  /* margin: auto; */
+  position: relative;
+  left: -25%;
+}
+
+.CardPrice__second__monthly {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  top: -10px;
+  left: 0%;
+  padding-bottom: 0px;
+  /* align-items: center; */
+}
+
+.CardPrice__second__month {
+  top: -26px;
+  left: 9%;
+  width: 720px;
+  max-width: 720px;
+  min-width: 375px;
+  height: auto;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  opacity: 0.3;
+  font-family: "Karla", sans-serif;
+  display: block;
+  letter-spacing: 0.2px;
+}
+
+.CardPrice__second__full {
+  height: auto;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  opacity: 0.7;
+  font-family: "Karla", sans-serif;
+  display: block;
+  letter-spacing: 0.3px;
+  top: -2px;
+  left: 0%;
+  padding-bottom: 23px;
+}
+
+.CardPrice__third {
+  height: 260px;
+  top: -300px;
+  width: 720px;
+  max-width: 720px;
+  min-width: 375px;
+  background-color: hsl(179, 62%, 43%);
+  flex-direction: column;
+  border-radius: 0px 0px 5px 0px;
+  /* padding-left: 30px; */
+  position: relative;
+  display: flex;
+  padding: 40px 0px 0px 40px;
+  /* margin: auto; */
+  position: relative;
+  left: 25%;
+}
+
+.CardPrice__third__why {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  top: -10px;
+  left: 0%;
+  padding-bottom: 0px;
+  /* align-items: center; */
+}
+.CardPrice__third__tuto {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  top: -5px;
+  left: 0%;
+  padding-bottom: 0px;
+  opacity: 0.7;
+  /* align-items: center; */
 }
